@@ -154,6 +154,10 @@ fun MyRangeSlider(selectedIcon: String) {
 
         Spacer(modifier = Modifier.height(24.dp))
 
+        HorizontalDivider()
+
+        Spacer(modifier = Modifier.height(24.dp))
+
         if (finalSelectedIcon.isNotEmpty()) {
             MySelectedIcon(finalSelectedIcon, finalSliderValue)
         }
